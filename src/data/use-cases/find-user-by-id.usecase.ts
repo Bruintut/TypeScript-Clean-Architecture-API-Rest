@@ -4,7 +4,7 @@ import { IUserRepository } from "../repositories/user-repository.data";
 
 export class findUserByIdUseCase implements IFindUserByIdUseCase{
     constructor(private readonly userRepository: IUserRepository){}
-    async execute(id: string): Promise<UserEntity> {
-      return await this.userRepository.findUserById(id);  
+    async execute(userId: string): Promise<UserEntity> {
+      return await this.userRepository.findUserById(userId);  
     }
 }

@@ -1,5 +1,5 @@
 import { UserEntity } from "../entities/user.entity";
 
 export interface IDeleteUserUseCase{
-    execute(id: string): Promise<UserEntity>;
+    execute(userId: string): Promise<UserEntity>;
 }

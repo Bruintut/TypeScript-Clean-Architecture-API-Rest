@@ -5,7 +5,7 @@ import { UserOutputData } from "../types/output";
 
 export class findAllUsersUseCase implements IFindAllUsersUseCase{
     constructor(private readonly userRepository: IUserRepository){}
-    async execute(id: number): Promise<UserOutputData[]> {
+    async execute(): Promise<UserOutputData[]> {
         return await this.userRepository.findAllUsers();        
     }
 }
