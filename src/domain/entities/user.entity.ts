@@ -1,6 +1,7 @@
-import UserInputEntity from "./input-data/user-input.entity";
+import { UserInputEntity } from "./input-data/user-input.entity";
 
-export class UserEntity extends UserInputEntity {
+
+export interface UserEntity extends UserInputEntity {
     userId: string ;
     
 }

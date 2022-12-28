@@ -1,4 +1,4 @@
-export default class UserInputEntity{
+export interface UserInputEntity{
     username: string;
     firstName: string;
     lastName: string;

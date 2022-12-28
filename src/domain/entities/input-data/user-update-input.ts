@@ -1,4 +1,4 @@
-export default class UserUpdateInputEntity{
+export interface UserUpdateInputEntity{
     username?: string;
     firstName?: string;
     lastName?: string;
