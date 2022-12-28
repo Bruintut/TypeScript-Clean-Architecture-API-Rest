@@ -1,4 +1,4 @@
-import { UserEntity } from "../models/User.entity";
+import { UserEntity } from "../entities/user.entity"
 
 export default class UserService{
     constructor(private readonly userEntity: UserEntity, private readonly userService: UserService) {}
