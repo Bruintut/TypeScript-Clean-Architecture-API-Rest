@@ -1,5 +1,5 @@
-import ICreateUserUseCase from "../../domain/use-cases/create-user.usecase";
-import IUserRepository from "../repositories/user-repository.data";
+import {ICreateUserUseCase} from "../../domain/use-cases/create-user.usecase";
+import {IUserRepository} from "../repositories/user-repository.data"
 import { UserInputData } from "../types/input";
 import { UserOutputData } from "../types/output";
 import randomUUID from "crypto-randomuuid";
