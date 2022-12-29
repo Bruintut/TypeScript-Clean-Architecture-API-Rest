@@ -1,5 +1,9 @@
 {
   "dependencies": {
-    "crypto-randomuuid": "^1.0.0"
+    "crypto-randomuuid": "^1.0.0",
+    "mongodb": "^4.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18"
   }
 }

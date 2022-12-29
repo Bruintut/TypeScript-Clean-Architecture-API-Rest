@@ -1,4 +1,4 @@
-import IUserRepository from "./data/repositories/user-repository.data";
+/* import IUserRepository from "./data/repositories/user-repository.data";
 import { UserEntity } from "./domain/entities/user.entity";
 
 class UserRepositorySpy implements IUserRepository{
@@ -7,4 +7,4 @@ class UserRepositorySpy implements IUserRepository{
         this.users.push(data);
         return Promise.resolve(data);
     }
-}
+} */
