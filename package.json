@@ -1,7 +1,11 @@
 {
+  
+
   "scripts": {
-    "start": "node dist/main/server.js"
+    "start": "node src/main/server"  
   },
+  "type": "module",
+  
   "dependencies": {
     "bcrypt": "^5.1.0",
     "crypto-randomuuid": "^1.0.0",
@@ -11,5 +15,25 @@
   },
   "devDependencies": {
     "@types/node": "^18.11.18"
+  },
+  "name": "clean-architecture-typescript-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bruintut/TypeScript-Clean-Architecture-API-Rest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bruintut/TypeScript-Clean-Architecture-API-Rest/issues"
+  },
+  "homepage": "https://github.com/Bruintut/TypeScript-Clean-Architecture-API-Rest#readme",
+  "description": "",
+  "_moduleAliases": {
+    "@": "dist"
   }
+
+  
 }
