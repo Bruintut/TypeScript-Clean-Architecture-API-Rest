@@ -1,6 +1,5 @@
 import { UserInputData } from "../../data/types/input";
 import { UserOutputData } from "../../data/types/output";
-import { UserInputEntity } from "../../domain/entities/input-data/user-input.entity";
 import { ICreateUserUseCase } from "../../domain/use-cases/create-user.usecase";
 import { IController } from "./abstract/controller";
 import { IRequest } from "./abstract/request";
