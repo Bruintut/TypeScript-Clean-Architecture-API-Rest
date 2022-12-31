@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "start": "node dist/main/server.js"
+  },
   "dependencies": {
     "bcrypt": "^5.1.0",
     "crypto-randomuuid": "^1.0.0",
