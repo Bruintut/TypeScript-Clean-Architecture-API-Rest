@@ -2,10 +2,11 @@ import { Collection, MongoClient } from "mongodb";
 
 export const MongoHelper = {
   client: null as unknown as MongoClient,
-  url: null as unknown as string,
+  uri: null as unknown as string,
 
-  async connect(url: string) {
-    this.client = await MongoClient.connect(url);
+  async connect(uri: string) {
+    this.uri = uri
+    this.client = await MongoClient.connect(uri);
   },
 
   async disconnect() {
